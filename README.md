@@ -112,3 +112,6 @@ docker push 13.124.183.113:5000/crystal:xe
 ## XpressEngine 실행 후 접속
 
 이제 XpressEngine이 설정되었으므로, 웹 브라우저에서 `http://<서버_ip>:8008` 주소로 접속하여 XpressEngine을 사용할 수 있습니다.
+
+![image](https://github.com/user-attachments/assets/8bef5e72-ed5e-4f5a-9218-0ddc3796bc38)
+
