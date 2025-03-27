@@ -73,8 +73,8 @@ docker container run -d --name xe1 --link db1:mysql -p 8008:80 xe:blue
 로컬에서 만든 `xe:blue` 이미지를 Docker Hub 또는 개인 레지스트리로 푸시하려면, 먼저 이미지를 태그하고 푸시합니다.
 
 ```bash
-docker tag xe:blue 13.124.183.113:5000/crystal:xe
-docker push 13.124.183.113:5000/crystal:xe
+docker tag xe:blue [저장소 ip]:5000/crystal:xe
+docker push [저장소 ip]:5000/crystal:xe
 ```
 
 ## MySQL 접속 및 데이터베이스 확인
